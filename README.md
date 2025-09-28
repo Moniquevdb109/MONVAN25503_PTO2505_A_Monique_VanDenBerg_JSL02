@@ -1,4 +1,4 @@
-## 📈Task Input and Status Validation System📉
+## 📈Kanban Task Input and Status Validation System📉
 
 ## 💡 Overview
 
@@ -32,25 +32,25 @@ A task entry system that reliably captures, validates, and structures task data,
 
 - The program must prompt users for task 1 title, descrition and status inputs, it must do the same for task 2 information
 
-  ![title prompt](./assets/Title.png)
-  ![description prompt](./assets/Description.png)
-  ![status prompt](./assets/Status.png)
+  ![title prompt](./explainer-images/Title.png)
+  ![description prompt](./explainer-images/Description.png)
+  ![status prompt](./explainer-images/Status.png)
 
 **Invalid status**
 
 - If the user enters a status other than `todo`, `doing` or `done`, the program must alert the user of this and return to prompting them to enter a status.
 
-  ![invalid status](./assets/Invalid.png)
+  ![invalid status](./explainer-images/Invalid.png)
 
 **Console log**
 
 - When there is a completed task:
 
-  ![complete](./assets/Done-output.png)
+  ![complete](./explainer-images/Done-output.png)
 
 - When there are no completed tasks:
 
-  ![no tasks](./assets/No-tasks-output.png)
+  ![no tasks](./explainer-images/No-tasks-output.png)
 
 ---
 
