@@ -16,3 +16,6 @@ while (task2Status !== "todo" && task2Status !== "doing" && task2Status !== "don
   task2Status = prompt("Enter task 2 status").toLowerCase();
 }
 
+if (task1Status === "done") {
+    console.log("Title: " + task1Title  + ", Status: " + task1Status)
+}
