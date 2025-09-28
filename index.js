@@ -15,3 +15,4 @@ while (task2Status !== "todo" && task2Status !== "doing" && task2Status !== "don
   alert("Invalid status. Please enter 'todo', 'doing', or 'done'.");
   task2Status = prompt("Enter task 2 status").toLowerCase();
 }
+
