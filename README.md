@@ -8,9 +8,9 @@ I built a small JavaScript task-entry tool. It walks me through adding two tasks
 
 ## 🚀 Features & Objectives
 
-**Interactive Task Input** — On page load, it prompts for two tasks and collect a title, description, and status for each.
-**Status Validation** — It only accept todo, doing, or done. If anything else is entered, it will show an alert and keep prompting until a valid status is provided.
-**Case-Insensitive Handling** — It accept inputs like TODO, doing, or Done and normalize them to lowercase, keeping the code consistent.
+**Interactive Task Input** — On page load, it prompts for two tasks and collects a title, description, and status for each.
+**Status Validation** — It only accepts todo, doing, or done. If anything else is entered, it will show an alert and keep prompting until a valid status is provided.
+**Case-Insensitive Handling** — It accepts inputs like TODO, doing, or Done and normalizes them to lowercase, keeping the data consistent.
 **Console Output** — If any tasks are marked done, it will log their title and status to the console; if none are done, it will print a motivational message
 **Maintainable Code** — I keep HTML, CSS, and JavaScript in separate files for clarity and easy maintenance.
 
@@ -30,7 +30,7 @@ A task entry system that reliably captures, validates, and structures task data,
 
 ## 📊 Prompt Input Examples
 
-- The program must prompt users for task 1 title, descrition and status inputs, it must do the same for task 2 information
+- The program must prompt users for task 1 title, description and status inputs, it must do the same for task 2 information
 
   ![title prompt](./explainer-images/Title.png)
   ![description prompt](./explainer-images/Description.png)
