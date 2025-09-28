@@ -23,3 +23,7 @@ if (task1Status === "done") {
 if (task2Status === "done") {
     console.log("Title: " + task2Title  + ", Status: " + task2Status)
 }
+
+if (task1Status !== "done" && task2Status !== "done") {
+    console.log("No tasks complete, let's get to work!")
+}
